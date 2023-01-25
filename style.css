@@ -1,0 +1,765 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+
+/*HEADER*/
+
+header{
+    background: url(img/banner_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 3%;
+}
+
+a{
+    text-decoration: none;
+    color: #f2f2f2;
+    width: 100px;
+    text-align: center;
+}
+
+.navbar{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: end;
+    justify-content: space-between;
+    font-size: 0.8em;
+}
+
+.logo a{
+    color: #f2f2f2;
+    font-family: serif;
+    font-weight: 900;
+    font-size: 1.4em;
+    padding-left: 120%;
+}
+
+.logo a span{
+    color: #f6c45f;
+    font-size: 1.4em;
+}
+
+nav ul, li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 50%;
+} 
+
+#headerText{
+    text-align: center;  
+}
+
+h1{
+    color: #f2f2f2;
+    font-size: 2em;
+    margin-top: 15%;
+    margin-bottom: 1%;
+}
+
+h1 span:nth-child(1){
+    color: aqua;
+    font-size: 1em;
+}
+
+h1 span:nth-child(2){
+    color: #f6c45f;
+    font-size: 1em;
+}
+
+#headerText p{
+    color: #f2f2f2;
+    font-size: 0.9em;
+    margin: auto;
+    width: 40%;
+    line-height: 145%;
+}
+
+button{
+    font-size: 0.8em;
+    width: 15%;
+    padding: 1.3%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    border-radius: 40px;
+}
+
+.mobile i{
+    visibility: hidden;
+}
+
+.liste{
+    display: none;
+}
+
+input{
+    visibility: hidden;
+}
+
+.menuburger{
+    display: none;
+}
+
+
+/*SECTION UNE*/
+
+.sectionUne{
+    background: url(img/about-bg.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: 100%;    
+    color: #f2f2f2;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 0 8%;
+}
+
+.cartes{
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    padding: 8% 0%;
+    margin: auto;
+}
+
+.logos{
+    margin-bottom: 7%;
+    border-radius: 50%;
+    background-color: #f6c45f;
+    width: 50%;
+    border: solid #f2f2f2 5px;
+    padding: 10%;
+}
+
+h3{
+    font-size: 1em;
+    margin-top: 10%;
+}
+
+hr{
+    margin: 10% 0% ;
+    color: #ececec87;
+    border: solid 1px ;
+}
+
+.cartes p{
+    font-size: 0.9em;
+    margin-bottom: 10%;
+    line-height: 1.3em;
+}
+
+.cartes button{
+    font-size: 0.8em;
+    color: white;
+    background-color: #3DC1CD;
+    width: 80%;
+    height: 45px;
+}
+
+
+/*SECTION DEUX*/
+
+#sectionDeux{
+    display: flex;
+}
+
+#sectionDeux span{
+    color: #f6c45f;
+}
+
+aside{
+    width: 80%;
+    background-color: #3DC1CD;
+    color: #f2f2f2;
+    padding: 10%;
+    font-size: 1em;
+}
+
+aside p{
+    font-size: 0.9em;
+}
+
+aside ul{
+    margin-top: 20%;
+}
+
+aside li{
+    font-size: 1em;
+    margin: auto;
+    line-height: 2em;
+}
+
+.photo{
+    width: 40%;
+}
+
+.photos{
+    padding: 2%;
+}
+
+
+/*SECTION TROIS*/
+
+#sectionTrois{
+    background-color: #f6c45f;
+    padding: 8%;
+}
+
+#cadre{
+    background-color: #f2f2f2;
+    color: black;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 3% 2%;
+    border-radius: 5px;
+    font-size: 1em;
+    font-style: italic;
+}
+
+#auteur{
+    text-align: center;
+    font-size: 1.3em;
+    margin-top: 3%;
+    color: #f2f2f2;
+    line-height: 30px;
+}
+
+
+/*SECTION QUATRE*/
+
+#sectionQuatre{
+    display: flex;
+    background-image: url(img/blog-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#sectionQuatre span{
+    color: #f6c45f;
+}
+
+.asideDeux{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #f2f2f2;
+    font-size: 1em;
+    padding-top: 3%;
+    padding-bottom: 7%;
+    padding-left: 8%;
+    width: 60%;
+}
+
+.asideDeux hr{
+    margin: 6% 0%;
+}
+
+.asideDeux p{
+    font-size: 1em;
+}
+
+.asideDeux ul{
+    margin-top: 19%;
+}
+
+.asideDeux li{
+    font-size: 0.8em;
+    margin: auto;
+}
+
+.asideDeux button{
+    border-radius: 0%;
+    width: 100%;
+    height: 3em;
+    font-size: 1em;
+    margin-bottom: 0%;
+    margin-top: 7%;
+}
+
+.blog{
+    display: content;
+}
+
+.photoBlog img{
+    width: 96%;
+    padding: 0% 3%;
+    padding-top: 3%;
+}
+
+.pBlog{
+    width: 90%;
+    height: 33%;
+    margin-left: 3%;
+    background-color: #f2f2f2;
+    padding: 3%;
+}
+
+.pBlog h4{
+    font-size: 1.1em;
+    margin-bottom: 1%;
+}
+
+.pBlog h5{
+    color: #3DC1CD;
+    margin-bottom: 2%;
+}
+
+.pBlog p{
+    line-height: 140%;
+}
+
+
+/*SECTION CONTACT*/
+
+.sectionContact{
+    background-color: rgb(108, 108, 108);
+}
+
+.contact{
+    text-align: center;
+    color: #f2f2f2;
+    width: 20%;
+    margin: auto;
+    padding: 4% 0;
+}
+
+.contact hr{
+    margin: 8% 5%;
+}
+
+.contact p{
+    font-size: 1em;
+}
+
+.contact button{
+    width: 70%;
+    margin-top: 10%;
+    padding: 5% 0%;
+    font-size: 0.8em;
+    background-color: #3DC1CD;
+    color: #f2f2f2;
+}
+
+
+/*FOOTER*/
+
+footer{
+    background-color: rgb(58, 58, 58);
+    height: 200px;
+    color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7%;
+}
+
+.footer h2 span{
+    color: #f6c45f;
+    font-size: 1.7em;
+}
+
+.footer p span{
+    color: #f6c45f;
+}
+
+.footer h2{
+    font-size: 1.2em;
+}
+
+.footer p{
+    font-size: 0.9em;
+    margin-top: 2%;
+}
+
+.location h3{
+    font-size: 0.8em;
+    line-height: 70px;
+    margin: auto;
+}
+
+.location p{
+    margin-bottom: 20%;
+    padding-right: 30px;
+    border-right: solid 1px white;
+}
+
+.locationDeux p{
+    padding-top: 34%;
+}
+
+.locationTrois h3{
+    font-size: 0.8em;
+    line-height: 70px;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.locationTrois p{
+    margin-bottom: 20%;
+    padding-right: 30px;
+}
+
+.socialTitre h3{
+    font-size: 0.8em;
+    line-height: 70px;
+    margin: auto;
+}
+
+.socialIcones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialIcones i{
+    border-radius: 50%;
+    font-size: 1.2em;
+    color: black;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    width: 90%;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 20%;
+    margin-right: 8%;
+    padding: 5% 5%;
+}
+
+
+
+/*RESPONSIVE TABLETTE*/
+
+@media screen and (max-width : 1100px){
+
+    /*HEADER*/
+
+    header{
+        padding-top: 30px;
+    }
+
+    .mobile i{
+        visibility: visible;
+        height: 30px;
+        width: 30px;
+        border-radius: 5px;
+        font-size: 1.8em;
+    }
+
+    input{
+        margin:10px 30px ;
+    }
+
+    input:checked ~ .menuburger{
+        background: rgba(0 , 0, 0, 0.5);
+        padding-bottom: 4px;
+        display: block;
+    }
+
+    label ul{
+        padding-top: 10px;
+    }
+
+    .menuburger{
+        background-color: rgba(0, 0, 0, 0.512);
+        /* margin: auto; */
+    }
+
+    header ul:last-child{
+        /* transition: 2s; */
+    }
+
+    .mobile{
+        visibility: visible;
+        color: #f2f2f2;
+        margin-right: 10%;
+    }
+
+    nav li{
+        display: none;  
+    }
+
+    nav ul, li{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        margin: 0% 0%;
+        padding: 3%;
+    } 
+
+    .logo a{
+        padding-left: 100%;
+    }
+    
+    h1{
+        font-size: 1.7em;
+    }
+    
+    button{ 
+        width: 160px;
+        height: 45px;
+        border-radius: 40px;
+        margin-top: 50px;
+        font-size: 0.8em;
+    }
+
+    /* SECTION 1 */ 
+
+    .cartes h3{
+        font-size: 1.2em;
+    }
+
+    .cartes button{
+        font-size: 0.8em;
+        width: 100%;
+    }
+
+    .cartes p{
+        margin-bottom: -20%;
+    }
+
+    /* SECTION 2 */ 
+
+    #sectionDeux aside{
+        width: 140%;
+    }
+
+    .photos{
+        margin-top: 2%;
+    }
+
+    .photos img{
+        width: 49%;
+    }
+
+    /* SECTION 4 */ 
+
+    #auteur{
+        font-size: 1em;
+    }
+
+    /* SECTION 4 */ 
+
+    .asideDeux{
+        padding-left: 3%;
+        padding-right: 3%;
+        width: 80%;
+    }
+
+    .photoBlog img{
+        width: 100%;
+    }
+
+    .pBlog{
+        width: 94%;
+    }
+
+    .pBlog p{
+        font-size: 0.9em;
+    }
+
+    /* SECTION CONTACT */ 
+
+    .contact{
+        width: 40%;
+    }
+
+    .contact button{
+        width: 60%;
+    }
+
+    /* FOOTER */ 
+
+    footer{
+        font-size: 0.7em;
+        padding: 1% 1%;
+        height: 40%;
+    }
+
+    .locationDeux p{
+        padding-top: 63%;
+    }
+}
+
+
+
+/*RESPONSIVE PORTABLE*/
+
+@media screen and (max-width : 600px){
+
+    /*HEADER*/
+
+    .logo a{
+        color: #f2f2f2;
+        font-family: serif;
+        font-weight: 900;
+        font-size: 1.4em;
+        padding-left: 60%;
+    }
+    
+    .logo a span{
+        color: #f6c45f;
+        font-size: 1.7em;
+    }
+
+    .mobile i{
+        margin-top: 8%;
+    }
+
+    h1{
+        font-size: 1.2em;
+        padding: 0% 7%;
+    }
+
+    #headerText p{
+        font-size: 1em;
+        width: 65%;
+        margin-top: 10%;
+    }
+
+    button{
+        width: 30%;
+    }
+
+    /*SECTION 1 */ 
+
+    .sectionUne{
+        display:block;
+    }
+
+    .sectionUne .cartes{
+        width: 78%;
+        padding-top: 30%;
+    }
+
+    .cartes p{
+        font-size: 1.3em;
+        margin-bottom: 3%;
+    }
+
+    .cartes button{
+        width: 80%;
+    }
+
+    /*SECTION 2 */
+    
+    #sectionDeux{
+        display: block;
+    }
+
+    #sectionDeux aside{
+        padding-left: 20%;
+        padding-right: 60%;
+        font-size: 1.3em;
+    }
+
+    .photos img{
+        display: block;
+        width: 100%;
+        padding: 5% 5%;
+    }
+
+    /*SECTION 3 */
+
+    #sectionTrois{
+        padding: 10%;
+    }
+
+    #cadre{
+        width: 100%;
+        padding: 10%;
+        font-size: 1.5em;
+    }
+
+    #auteur{
+        font-size: 1.2em;
+        margin-top: 9%;
+    }
+
+    /*SECTION 4 */
+    
+    #sectionQuatre{
+        display: block;
+    }
+
+    #sectionQuatre .asideDeux{
+        width: 100%;
+        font-size: 1.3em;
+        padding: 10% 10%;
+    }
+
+    .blog{
+        padding-bottom: 4%;
+    }
+
+    .pBlog{
+        font-size: 1.4em;
+        height: 100%;
+        padding: 10% 4%;
+        text-align: center;
+        line-height: 150%;
+        margin: 5% 3%;
+    }
+
+    /*SECTION CONTACT*/
+
+    .contact{
+        font-size: 1.5em;
+        width: 76%;
+        padding: 50% 0%;
+    }
+
+    .contact button{
+        font-size: 0.7em;
+        height: 30%;
+        margin-top: 20%;
+    }
+   
+    /*FOOTER*/
+
+    footer{
+        display: block;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .footer{
+        padding-top: 9%;
+    }
+
+    .location{
+        padding-top: 14%;
+    }
+
+    .location p{
+        padding-left: 9%;
+        margin-bottom: 0%;
+    }
+
+    .locationDeux p{
+        padding-top: 5%;
+    }
+
+    .locationTrois{
+        padding-top: 14%;
+    }
+
+    .locationTrois p{
+        padding-left: 9%;
+        margin-bottom: 0%;
+    }
+
+    .socialTitre{
+        padding-top: 14%;
+    }
+
+    .socialIcones{
+        padding: 0 5%;
+    }
+}
